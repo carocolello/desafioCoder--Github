@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./imgs/nature.png" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="contenedorGrid">
@@ -27,11 +29,11 @@
         </header>
 
         <section class="sectionUno">
-                <h1>Cosmética natural basada en plantas</h1>
-                <input type="submit" value="Ver más" class="buttonUno">
+                <h1 data-aos="zoom-in-up" data-aos-duration="1500">Cosmética natural basada en plantas</h1>
+                <input type="submit" value="Ver más" class="buttonUno" data-aos="zoom-in-up" data-aos-duration="1500">
         </section>
 
-        <section class="sectionDos">
+        <section class="sectionDos" data-aos="fade-right">
                 <h3>Hola! Somos ...</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita provident sed consequuntur animi! Dolores, nesciunt soluta in quidem voluptatem tenetur reprehenderit eaque omnis voluptatibus inventore porro sit eius fugiat numquam corporis nisi consequatur voluptate nam nostrum perferendis ullam officia vitae itaque blanditiis. Animi,autem aspernatur ex velit quisquam deleniti nam beatae sequi, sunt, maiores et? Quo, iusto fugiat itaque sint incidunt obcaecati tenetur, qui possimus fugit culpa error, perferendis ullam atque vitae adipisci. Consectetur cupiditate a error consequatur inventore rerum repudiandae, itaque facilis quidem, in nostrum, beatae magnam? Id placeat, vitae consectetur fugiat soluta inventore nostrum ab fuga nisi architecto odit tempore vero labore sint eveniet voluptatibus sequi velit alias.</p>
         </section>
@@ -101,5 +103,10 @@
             </div>
         </footer>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
