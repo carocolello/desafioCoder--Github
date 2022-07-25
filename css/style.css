@@ -95,7 +95,8 @@ header img {
 }
 
 .sectionTres {
-    background-color: #847c5d;
+    /* background-color: #847c5d; */
+    background: linear-gradient(#e66465, #9198e5);
     color: #fff;
     grid-area: sectionTres;
     display: flex;
